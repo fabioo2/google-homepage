@@ -1,14 +1,73 @@
-
+div {text-align: center;}
 
 .main {
-position: relative;
+width: 559px;
+height: 190px;
+
+position: absolute;
+top: 150px;
+left: 0;
+right: 0;
+
+
 margin: auto;
 }
 
+.main_picture {
+padding: 30px;
+}
+
+.box {
+height: 44px;
+width: 559px;
+
+}
+
+.buttons {
+padding-top: 10px;
+
+}
+
+.searchbutton {
+
+height: 36px;
+width: 125.75px;
+font-family: Arial, sans-serif;
+font-size: 13px;
+margin-top: 10px;
+background-color: #f8f8f8
+color: #757575;
+font-weight: 700;
+border-right-color: #f8f8f8;
+border-left-color: #f8f8f8;
+border-right-color: #f8f8f8;
+border-bottom-color: #f8f8f8;
+border-style: solid;
+border-radius: 0;
+
+}
+
+.luckybutton {
+
+height: 36px;
+width: 142.58px;
+font-family: Arial, sans-serif;
+font-size: 13px;
+margin-top: 10px;
+background-color: #f8f8f8
+color: #757575;
+font-weight: 700;
+border-right-color: #f8f8f8;
+border-left-color: #f8f8f8;
+border-right-color: #f8f8f8;
+border-bottom-color: #f8f8f8;
+border-style: solid;
+border-radius: 0;
+}
 
 input {
-height: 30px;
-width: 260px;
+height: 44px;
+width: 484px;
 }
 
 button { 

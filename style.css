@@ -1,9 +1,53 @@
-div {text-align: center;}
+#nav_bar {text-align: right;}
+#middle {text-align: center;}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 280.94px;
+height: 30px;
+position: absolute;
+top: 0;
+right: 0;
+padding-right: 20px
+
+}
+
+li {
+display: inline;
+}
+
+.topwords {
+font-family: Arial, sans-serif;
+font-size: 13px;
+color: #222;
+text-decoration: none;
+
+}
+
+.signin {
+height: 30px;
+width: 84px;
+font-family: Arial, sans-serif;
+font-size: 13px;
+margin-top: 10px;
+background-color: #4285f4;
+color: #fff;
+font-weight: 700;
+border-right-color: #4285f4;
+border-left-color: #4285f4;
+border-right-color: #4285f4;
+border-bottom-color: #4285f4;
+border-style: solid;
+border-radius: 0;
+
+}
 
 .main {
 width: 559px;
 height: 190px;
-
 position: absolute;
 top: 150px;
 left: 0;
@@ -44,7 +88,6 @@ border-right-color: #f8f8f8;
 border-bottom-color: #f8f8f8;
 border-style: solid;
 border-radius: 0;
-
 }
 
 .luckybutton {
@@ -63,6 +106,14 @@ border-right-color: #f8f8f8;
 border-bottom-color: #f8f8f8;
 border-style: solid;
 border-radius: 0;
+}
+
+.languagesupport {
+font-family: Arial, sans-serif;
+font-size: 13px;
+color: #222;
+text-decoration: none;
+padding-top:20px;
 }
 
 input {

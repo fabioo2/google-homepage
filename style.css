@@ -11,14 +11,16 @@ height: 30px;
 position: absolute;
 top: 0;
 right: 0;
-padding-right: 20px
+
+
+
 
 }
 
 li {
-display: inline;
+float: left;
 margin: 10px;
-
+height: auto:
 }
 
 .topwords {
@@ -26,24 +28,25 @@ font-family: Arial, sans-serif;
 font-size: 13px;
 color: #222;
 text-decoration: none;
-
 }
 
 .signin {
-height: 30px;
-width: 84px;
 font-family: Arial, sans-serif;
 font-size: 13px;
-margin-top: 10px;
 background-color: #4285f4;
 color: #fff;
 font-weight: 700;
+text-decoration: none;
 border-right-color: #4285f4;
 border-left-color: #4285f4;
 border-right-color: #4285f4;
 border-bottom-color: #4285f4;
+border-top-color: #4285f4;
 border-style: solid;
 border-radius: 0;
+padding: 5px;
+padding-right: 15px;
+padding-left: 15px;
 
 }
 
